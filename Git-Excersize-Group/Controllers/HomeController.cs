@@ -13,6 +13,11 @@ namespace Git_Excersize_Group.Controllers
             _logger = logger;
         }
 
+        public IActionResult radha()
+        {
+
+        }
+
         public IActionResult Index()
         {
             return View();
